@@ -5,8 +5,49 @@
 }
 
 :root {
-  --light-green: #d4e9e2;
-  --dark-green: #1e3932;
-  --normal-green: #00754a;
-  --gold-color: #cba258;
+  --light-green: #D4E9E2;
+  --dark-green: #1E3932;
+  --normal-green: #00754A;
+  --gold-color: #CBA258;
+}
+
+
+
+.hero{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:40px;
+  background-color: var(--light-green);
+  font-family: Helvetica, Helvetica, Arial, sans-serif;
+padding:0;
+margin:0;
+}
+
+.hero-text{
+  font-size: 18px;
+  margin:10px 0;
+  padding: 1em;;
+  line-height: 2em;;
+  
+}
+
+.hero-img{
+width:800px;
+height: auto;
+}
+
+a{
+  color: black;
+}
+
+button{
+  font-size: 10px;
+  background-color: #00754A;
+  color:white;
+  border-radius: 7px;
+  border: 2px #00754A;
+  width:50px;
+  height: 18px;
 }
